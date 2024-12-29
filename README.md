@@ -1,9 +1,26 @@
 # LegalConnect
 
-![logo legal 101](https://github.com/ayushmanlakshkar/Legal101/assets/121045636/90ba6ca3-581f-4852-8ce4-f7e7089c719d)
-
-
 LegalConnect is a cutting-edge web application designed to bridge the gap between legal professionals and the public. With a seamless blend of professional networking and knowledge-sharing features inspired by platforms like LinkedIn and Quora, LegalConnect offers a unique and invaluable resource for both lawyers and individuals seeking legal guidance.
+
+## 🚀 Getting Started  
+
+### Open Using Daytona  
+
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+2. **Start the Server**:
+   ```
+   daytona serve;
+    ```
+3. **Create the Workspace**:  
+   ```bash  
+   daytona create https://github.com/sanketshinde3001/Study-Buddy.git
+   ```  
+4. **Start the Application**:  
+   ```bash  
+   npm run dev
+   ```  
+
+---
 
 ## Features
 
