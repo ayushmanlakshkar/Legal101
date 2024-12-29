@@ -13,7 +13,7 @@ LegalConnect is a cutting-edge web application designed to bridge the gap betwee
     ```
 3. **Create the Workspace**:  
    ```bash  
-   daytona create https://github.com/sanketshinde3001/Study-Buddy.git
+   daytona create https://github.com/ayushmanlakshkar/Legal101.git
    ```  
 4. **Start the Application**:  
    ```bash  
