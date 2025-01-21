@@ -1,26 +1,26 @@
 {
-    "name": "LegalConnect Development Environment",
-    "image": "mcr.microsoft.com/devcontainers/python:3.10",
-    "forwardPorts": [
+  "name": "LegalConnect Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "forwardPorts": [
       3000,
       5000
-    ],
-    "customizations": {
+  ],
+  "customizations": {
       "vscode": {
-        "settings": {
-          "python.defaultInterpreterPath": "/usr/local/bin/python",
-          "python.linting.enabled": true,
-          "python.linting.pylintEnabled": true,
-          "java.home": "/usr/lib/jvm/java-11-openjdk",
-          "javascript.validate.enable": false
-        },
-        "extensions": [
-          "ms-python.python",
-          "dbaeumer.vscode-eslint",
-          "dsznajder.es7-react-js-snippets",
-          "esbenp.prettier-vscode"
-        ]
+          "settings": {
+              "python.defaultInterpreterPath": "/usr/local/bin/python",
+              "python.linting.enabled": true,
+              "python.linting.pylintEnabled": true,
+              "java.home": "/usr/lib/jvm/java-11-openjdk",
+              "javascript.validate.enable": false
+          },
+          "extensions": [
+              "ms-python.python",
+              "dbaeumer.vscode-eslint",
+              "dsznajder.es7-react-js-snippets",
+              "esbenp.prettier-vscode"
+          ]
       }
-    },
-    "postCreateCommand": "npm install --prefix Backened && npm install --prefix FrontEnd && pip install -r Legal_Advisor_AI/requirements.txt"
-  }
+  },
+  "postCreateCommand": "bash setup.sh"
+}
